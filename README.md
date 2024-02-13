@@ -36,12 +36,17 @@ git clone https://github.com/pratikganjale55/esmagico.git
 
 ## Folder Structure
 
+your-project/
+│
 ├── public/
+│   └── index.html
+│
 └── src/
-├── components/
-│ └── Task.js
-├── App.css
-├── App.js
-├── index.css
-└── index.js
+    ├── components/
+    │   └── Task.js
+    │
+    ├── App.css
+    ├── App.js
+    ├── index.css
+    └── index.js
  
