@@ -1,0 +1,142 @@
+.emi-container {
+  margin-top: 5%;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+.emi-container h2 {
+  text-align: center;
+}
+.emi-left-right-div {
+  display: flex;
+}
+.emileftDiv {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px; */
+  /* border: 1px solid; */
+}
+.inputWrapper label {
+  font-size: large;
+  font-weight: bold;
+  color: grey;
+}
+.inputWithSymbol {
+  display: flex;
+  background-color: rgb(209, 208, 208);
+}
+
+.emi-input-div {
+  padding: 20px;
+  background-color: white;
+  box-shadow: #f8f9fa;
+}
+.inputWrapper {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.inputWithSymbol {
+  height: 20px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.inputWithSymbol input {
+  height: 30px;
+  width: 100%;
+  align-items: end;
+}
+
+.emirightDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 20px;
+}
+.right-emi-circle {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: auto;
+  padding: 30px;
+}
+.donut-circle {
+  width: 100px;
+  height: 100px;
+  border: 30px solid #ff0096;
+  border-radius: 50%;
+  position: relative;
+  left: 30%;
+}
+
+.donut-circle::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  border: 10px solid transparent;
+  border-radius: 50%;
+}
+.bar-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.dot {
+  height: 10px;
+  width: 20px;
+  margin-left: 20px;
+  background-color: #ff0096;
+}
+.nameofbar {
+  margin-left: 20px;
+}
+.rsdot {
+  margin-left: 40px;
+}
+.status-right-info {
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(243, 242, 242);
+}
+.status-right-info h2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(64, 63, 63);
+}
+.status-right-info p {
+  font-weight: bold;
+  font-size: 30px;
+}
+@media screen and (max-width: 768px) {
+  .emi-left-right-div {
+    display: block;
+  }
+  .right-emi-circle {
+    display: block;
+  }
+  .donut-circle {
+    left: 20%;
+  }
+  .dot {
+    margin-left: 10px;
+  }
+  .nameofbar {
+    margin-left: 10px;
+  }
+  .rsdot {
+    margin-left: 20px;
+  }
+}
+

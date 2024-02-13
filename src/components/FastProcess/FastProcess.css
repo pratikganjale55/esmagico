@@ -1,0 +1,173 @@
+.process-container {
+  display: flex;
+  align-items: center;
+  margin-top: 2%;
+  padding: 2%;
+}
+
+.process-left-div {
+  display: flex;
+  position: relative;
+  flex: 1;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.process-left-div img {
+  display: block;
+  width: 200px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.task {
+  position: absolute;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.task-top-left {
+  top: 20%;
+  left: 25%;
+  background-color: #ffe0b3;
+}
+
+.task-bottom-left {
+  bottom: 30%;
+  left: 30%;
+  background-color: #dfb3ff;
+}
+
+.task-middle {
+  top: 40%;
+  left: 60%;
+  background-color: #b3e0ff;
+}
+
+.task-top-right {
+  top: 15%;
+  right: 30%;
+  background-color: #ffb3e0;
+}
+
+.task-bottom-right {
+  bottom: 20%;
+  right: 30%;
+  background-color: #ffb3e0;
+}
+.div-inside-mobile {
+  background-color: #f4e9fc;
+  color: black;
+  text-align: center;
+}
+.div-inside-mobile p {
+  color: #8800ec;
+  font-weight: bold;
+}
+.process-right-div {
+  flex: 1;
+  padding: 20px;
+}
+.process-right-div h2 {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+.process-right-div p {
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+.step-bar {
+  display: flex;
+  margin-top: 40px;
+}
+.step-middle {
+  width: 200px;
+  height: 10px;
+  background-color: #ccc;
+  margin-top: 1.2%;
+  align-items: center;
+}
+.step {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+.step.active {
+  background-color: #ff0096;
+}
+.apply-btn-process {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.process-btn {
+  background-color: #8800ec;
+  padding: 10px;
+  width: 20%;
+  text-align: center;
+  margin-top: 5%;
+  color: white;
+  letter-spacing: 3px;
+}
+
+.process-hero_blur {
+  width: 22rem;
+  height: 30rem;
+  left: 20%;
+  z-index: -1;
+}
+.blur {
+  background-color: rgba(249, 69, 144, 0.69);
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(130px);
+  z-index: -1;
+}
+@media (max-width: 768px) {
+  .process-container {
+    flex-direction: column;
+  }
+ 
+  .left-div,
+  .process-right-div {
+    width: 80%;
+  }
+  .process-hero_blur {
+    width: 10rem;
+  }
+  .task-top-left {
+    top: 15%;
+    left: 1%;
+  }
+
+  .task-bottom-left {
+    bottom: 20%;
+    left: 1%;
+  }
+
+  .task-middle {
+    top: 40%;
+    left: 80%;
+  }
+
+  .task-top-right {
+    top: 10%;
+    right: 1%;
+  }
+
+  .task-bottom-right {
+    bottom: 10%;
+    right: 1%;
+  }
+  .process-btn {
+    width: 40%;
+  }
+}
