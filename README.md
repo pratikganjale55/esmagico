@@ -34,19 +34,8 @@ git clone https://github.com/pratikganjale55/esmagico.git
 
 3. Open http://localhost:5173 to view it in the browser 
 
-## Folder Structure
-
-your-project/
-│
-├── public/
-│   └── index.html
-│
-└── src/
-    ├── components/
-    │   └── Task.js
-    │
-    ├── App.css
-    ├── App.js
-    ├── index.css
-    └── index.js
+![Hero page](./src/assets/Screenshot%20(179).png)
+![Testimonials](./src/assets/Screenshot%20(180).png)
+![EMI](./src/assets/Screenshot%20(181).png)
+![FAQ](./src/assets/Screenshot%20(182).png)
  
